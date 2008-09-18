@@ -14,3 +14,4 @@ sudo lh_config -p minimal -a i386 -d hardy --mirror-bootstrap "http://us.archive
 
 
 sudo lh_build
+qemu -cdrom binary.iso -m 256
